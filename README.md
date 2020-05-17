@@ -1,23 +1,9 @@
-# DevConnector 2.0
+# DevConnector 2.0_Browserstack
 
 > Social network for developers
 
-This is a MERN stack application from the "MERN Stack Front To Back" course on [Udemy](https://www.udemy.com/mern-stack-front-to-back/?couponCode=TRAVERSYMEDIA). It is a small social network app that includes authentication, profiles and forum posts.
+This is a MERN stack application from the "MERN Stack Front To Back" course on [Udemy](https://www.udemy.com/mern-stack-front-to-back/?couponCode=TRAVERSYMEDIA). It is a small social network app that includes authentication, profiles and forum posts. It was created by Brad Traversy and his course is an excellent way to develop your fundamental skills needed to build MERN based applications.
 
-# Updates since course published
-
-Such is the nature of software; things change frequently, newer more robust paradigms emerge and packages are continuously evolving.
-Hopefully the below will help you adjust your course code to manage the most notable changes.
-
-The master branch of this repository contains all the changes and updates, so if you're following along with the lectures in the Udemy course and need reference code to compare against please checkout the [origionalcoursecode](https://github.com/bradtraversy/devconnector_2.0/tree/originalcoursecode) branch. Much of the code in this master branch is compatible with course code but be aware that if you adopt some of the changes here, it may require other changes too.
-
-After completing the course you may want to look through this branch and play about with the changes.
-
-## Changes to GitHub API authentication
-
-Since the course was published, GitHub has [depreciated authentication via URL query parameters](https://developer.github.com/changes/2019-11-05-deprecated-passwords-and-authorizations-api/#authenticating-using-query-parameters)
-You can get an access token by following [these instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
-For this app we don't need to add any permissions so don't select any in the _scopes_.
 **DO NOT SHARE ANY TOKENS THAT HAVE PERMISSIONS**
 This would leave your account or repositories vulnerable, depending on permissions set.
 
@@ -278,19 +264,6 @@ git merge master
 ```
 
 Once merged you can push to heroku as above and your site will rebuild and be updated.
-
----
-
-## App Info
-
-### Author
-
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
-
-### Version
-
-2.0.0
 
 ### License
 
